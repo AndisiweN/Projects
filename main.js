@@ -22,8 +22,8 @@ function add(){
    console.log(total)
    row.innerHTML="";
     total.map((x)=>{
-   return (row.innerHTML += `<div class="col-3" ><div class="card one h-100"><div class="card-body"><h5 class="card-title">${x.expname}</h5></div><div class="card-footer">
-       <div class="amount"><p class="card-text">R${x.amtname}</p></div><div class="btns"><button class="btn btn-sm" onclick="del(this)">Delete</button><button class="btn btn-sm" onclick="edit(this)">Edit</button></div>
+   return (row.innerHTML += `<div class="col-3 lolo" ><div class="card one h-100"><div class="card-body"><h5 class="card-title">${x.expname}</h5></div><div class="card-footer">
+       <div class="amount"><p class="card-text">R${x.amtname}</p></div><div class="btns"><button class="btn btn-sm buttons " onclick="del(this)">Delete</button><button class="btn btn-sm buttons edit" onclick="edit(this)">Edit</button></div>
      </div>
    </div>
  </div>`)})

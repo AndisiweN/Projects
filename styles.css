@@ -1,3 +1,21 @@
+.btn{
+    border: solid 1px #fff;
+    background-color: rgb(75, 133, 188);
+    column-gap: 3px;
+}
+
+
+.lolo{
+    height: 10rem;
+    width: 10rem;
+    margin-top: 1rem;
+    display: flex;
+    text-align: center;
+
+
+
+}
+
 body{
     text-align: center;
     display: flex;
@@ -5,19 +23,20 @@ body{
 }
 .app{
     margin-top: 5rem;
+    width: 80%
 }
 h1{
     margin-bottom: 2rem;
 }
 
 .inputs{
-    width: 100%;
+    /* width: 70%; */
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 input{
-    width: 10rem;
+    width: 9rem;
     margin: 10px;
 }
 .addbtn{
@@ -29,6 +48,9 @@ input{
     width: 3rem;
     color: #fff;
     font-size: 1rem;
+}
+.edit{
+    
 }
 
 
@@ -116,14 +138,18 @@ header {
 
 /* }  */
 
-.row one {
-     grid: gap 50px;
-     background-color: brown;
+.row {
+    width: 80%;
+    margin: auto;
+     /* grid: gap 50px; */
+     
 
 }
 .card-footer {
     background-color: rgb(127, 206, 243);
     border-radius: 30px;
+    width: 100%;
+
 
 
 }
@@ -156,4 +182,8 @@ img {
     color: #fff;
     font-size: 1rem;
     
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
 }

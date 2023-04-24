@@ -9,25 +9,30 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <h1>BUDGET</h1>
+    <div class="app">
+    <h1>Monthly Budget Tracker</h1>
     <!-- <div class ="wrapper"></div>
     <div class ="container"></div>
     <div class ="sub-container"></div>
     <div class ="total-amount-container"></div> -->
     <div class="inputs">
-      <button class="addbtn" onclick="add()">Add</button>
+      <button class="addbtn" onclick="getData()">+</button>
       <div>
-    <input type="text" id="expense" placeholder="expense">
+    <input type="text" id="expense" placeholder="Expense">
       </div>
    
       <div>
-        <span>R</span><input type="number" id="amount" placeholder="amount">
+        <span>R</span><input type="number" id="amount" placeholder="Amount">
       </div>
       <div>
-        <span>R</span><input type="number" id="totalamt" placeholder="budget">
+        <span>R</span><input type="number" id="totalamt" placeholder="Budget">
       </div>
       
     </div>
+<div class="row">
+
+</div>
+    
     
     <!-- </div> -->
     <!-- <div>
@@ -44,10 +49,14 @@
       </div> -->
 
   
-    <div class="row ">
+    <div class="footer">
+      <button onclick="calc()" class="calc">Calc</button>
+      <input type="text" class="output" disabled>
         
         
       </div>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="main.js"></script>
   </body>

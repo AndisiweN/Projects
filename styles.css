@@ -1,0 +1,112 @@
+header {
+    background-color: brown;
+}
+
+
+.one{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+   
+}
+.two{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+.three{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+.four{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+.five{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+.six{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+.seven{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+.eight{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+.nine{
+    background-color: aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+.ten{
+    background-color:aquamarine;
+    border-color: rgb(2,0,36);
+}
+
+
+
+.row {
+    box-sizing:  small;
+    border-radius: 2px; 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5;
+     /* width: 30px;  */
+    /* height: 50px; */
+    font-size: medium;
+    /* background-color: brown; */
+      
+ 
+}
+
+/* .rowtwo {
+    box-sizing:  small;
+    border-radius: 2px; 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5;
+     /* width: 30px;  */
+    /* height: 50px; */
+    /* font-size: medium; */
+    /* background-color: brown; */
+
+/* }  */
+
+.row one {
+     grid: gap 50px;
+     background-color: brown;
+
+}
+.card-footer {
+    background-color: rgb(127, 206, 243);
+    border-radius: 30px;
+
+
+}
+body {
+    border-radius: 35px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+/* .container {
+    width: 100%;
+} */
+
+img {
+    width: 10;
+    height: 10;
+}
+
+/* .card{
+    border-radius: 30px;
+} */

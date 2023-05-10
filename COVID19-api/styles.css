@@ -1,55 +1,12 @@
-.button{
-    border: solid 1px #fff;
-    background-color: red;
-    column-gap: 3px;
+.p{
+    padding: 3rem ;
 }
 
-.inputs{
-    /* width: 70%; */
-    margin: auto;
-    display: flex;
-    justify-content: center;
+div {
+    display: block;
 }
-input{
-    width: 5rem;
-    margin: 6px;
-}
-/* .search{
-    border-radius: 3px;
-    border: black;
-    background-color: red;
-    height: 2rem;
-    margin: 5px;
-    width: 4rem;
-    color: black;
-    font-size: 1rem;
-} */
 
-/* body{
-    background-color: green, yellow, red;
-    /* background: rgb(131,58,180); */
-/* } */ */
+.card{
+    word-wrap: break-word;
+}
 
-.nav-link {
-    background:blue;
-    display: flex;
-    justify-content: space-between;height: 2rem;
-    margin: 5px;
-    width: 3rem;
-    color: #fff;
-    font-size: 1rem;
-    
-}
-.a{
-    background:blue;  
-}
-li{
-    background-color: aqua;
-    display: flex;
-    /* justify-content: space-between;height: 2rem; */
-    /* margin: 10px; */
-    /* width: 5rem; */
-    font-size: 20px;
-    justify-items: center;
-    
-}
